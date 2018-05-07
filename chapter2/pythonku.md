@@ -44,9 +44,7 @@ Bokeh 也是一个很好的可视化库，其目的是交互式可视化。与�
 
 ![](http://t12.baidu.com/it/u=1047918197,246651124&fm=170&s=9741FE10000A53457E96F34C030070E5&w=433&h=431&img.JPEG)
 
-7）Plotly
-
-地址：[https://plot.ly](https://plot.ly)
+1. 7）Plotly——地址：[https://plot.ly](https://plot.ly)
 
 最后谈谈 Plotly。它是一个基于 Web 的工具箱，用于构建可视化，将 API 呈现给某些编程语言（其中包括 Python）。在 plot.ly 网站上有一些强大的、开箱即用的图形。为了使用 Plotly，你需要设置你的 API 密钥。图形处理会放在服务器端，并在互联网上发布，但也有一种方法可以避免这么做。
 
