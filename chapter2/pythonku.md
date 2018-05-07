@@ -20,33 +20,19 @@ Series：一维、Data Frames：二维
 
 ![](http://t12.baidu.com/it/u=2099500088,577537836&fm=170&s=A012709498B85588245A3CD9030010BC&w=345&h=131&img.JPEG)
 
-例如，当你要从这两种类型的结构中接收到一个新的「Dataframe」类型的数据时，你将通过传递一个「Series」来将一行添加到「Dataframe」中来接收这样的 Dataframe：
+例如，当你要从这两种类型的结构中接收到一个新的「Dataframe」类型的数据时，你将通过传递一个「Series」来将一行添加到「Dataframe」中来接收这样的 Dataframe
 
-这里只是一小撮你可以用 Pandas 做的事情：
+# 二、可视化
 
-轻松删除并添加「Dataframe」中的列将数据结构转换为「Dataframe」对象处理丢失数据，表示为 NaN（Not a Number）功能强大的分组
+### 4）Matplotlib地址：[https://matplotlib.org](https://matplotlib.org)
 
-可视化
+* Matplotlib 是另一个 SciPy Stack 核心软件包和另一个 Python 库，专为**轻松生成简单而强大的可视化而量身定制**。它是一个顶尖的软件，使得 Python（在 NumPy、SciPy 和 Pandas 的帮助下）成为 MatLab 或 Mathematica 等科学工具的显著竞争对手。然而，这个库比较底层，这意味着你需要编写更多的代码才能达到高级的可视化效果，通常会比使用更高级工具付出更多努力，但总的来说值得一试。花一点力气，你就可以做到任何可视化：
 
-4）Matplotlib
+* 线图散点图条形图和直方图饼状图茎图轮廓图场图频谱图，还有使用 Matplotlib 创建标签、网格、图例和许多其他格式化实体的功能。基本上，一切都是可定制的。该库支持不同的平台，并可使用不同的 GUI 工具套件来描述所得到的可视化。许多不同的 IDE（如 IPython）都支持 Matplotlib 的功能。
 
-地址：[https://matplotlib.org](https://matplotlib.org)
+* 还有一些额外的库可以使可视化变得更加容易
 
-Matplotlib 是另一个 SciPy Stack 核心软件包和另一个 Python 库，专为轻松生成简单而强大的可视化而量身定制。它是一个顶尖的软件，使得 Python（在 NumPy、SciPy 和 Pandas 的帮助下）成为 MatLab 或 Mathematica 等科学工具的显著竞争对手。然而，这个库比较底层，这意味着你需要编写更多的代码才能达到高级的可视化效果，通常会比使用更高级工具付出更多努力，但总的来说值得一试。花一点力气，你就可以做到任何可视化：
-
-线图散点图条形图和直方图饼状图茎图轮廓图场图频谱图
-
-还有使用 Matplotlib 创建标签、网格、图例和许多其他格式化实体的功能。基本上，一切都是可定制的。
-
-该库支持不同的平台，并可使用不同的 GUI 工具套件来描述所得到的可视化。许多不同的 IDE（如 IPython）都支持 Matplotlib 的功能。
-
-还有一些额外的库可以使可视化变得更加容易。
-
-![](http://t12.baidu.com/it/u=3540415964,1395399969&fm=170&s=F41AE033BD45C8090645D5D20300C0B1&w=640&h=284&img.JPEG)
-
-5）Seaborn
-
-地址：[https://seaborn.pydata.org](https://seaborn.pydata.org)
+### 5）Seaborn——地址：[https://seaborn.pydata.org](https://seaborn.pydata.org)
 
 Seaborn 主要关注统计模型的可视化；这种可视化包括热度图（heat map），可以总结数据但也描绘总体分布。Seaborn 基于 Matplotlib，并高度依赖于它。
 
