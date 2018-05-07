@@ -1,14 +1,6 @@
-# 一、软件需求
+# 利用Keras探索皮马人糖尿病数据集
 
-Python安装
-
-Pycharm-编辑器安装
-
-Anaconda—集成环境安装（集成了基本所有Python机器学习库，可以像安装软件一样方便，避免安装配置环境出现的问题）
-
-# 二、软件安装
-
-Python3安装
+Keras基于Python的一个开发深度学习模型的package，这篇Notebook主要参考了[Develop Deep Learning Models on Theano and TensorFlow Using Keras中文译本](https://cnbeining.github.io/deep-learning-with-python-cn/)这本书[第7章](https://cnbeining.github.io/deep-learning-with-python-cn/3-multi-layer-perceptrons/ch7-develop-your-first-neural-network-with-keras.html)和[第8章](https://cnbeining.github.io/deep-learning-with-python-cn/3-multi-layer-perceptrons/ch8-evaluate-the-performance-of-deep-learning-models.html)的内容，并结合[**皮马人糖尿病数据集**](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes)，向大家介绍如何利用Keras搭建一个简单的神经网络模型。
 
 
 
