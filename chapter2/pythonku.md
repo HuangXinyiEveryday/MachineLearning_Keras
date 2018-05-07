@@ -34,13 +34,11 @@ Series：一维、Data Frames：二维
 
 ### 5）Seaborn——地址：[https://seaborn.pydata.org](https://seaborn.pydata.org)
 
-Seaborn 主要关注统计模型的可视化；这种可视化包括热度图（heat map），可以总结数据但也描绘总体分布。Seaborn 基于 Matplotlib，并高度依赖于它。
+* Seaborn 主要关注统计模型的可视化；这种可视化包括热度图（heat map），可以总结数据但也描绘总体分布。Seaborn 基于 Matplotlib，并高度依赖于它。
 
 ![](http://t11.baidu.com/it/u=282742669,3050531883&fm=170&s=4050C532451669CA1AD981CE0100C0B2&w=640&h=570&img.JPEG)
 
-6）Bokeh
-
-地址：[http://bokeh.pydata.org](http://bokeh.pydata.org)
+### 6）Bokeh——地址：[http://bokeh.pydata.org](http://bokeh.pydata.org) {#bokeh}
 
 Bokeh 也是一个很好的可视化库，其目的是交互式可视化。与之前的库相反，这个库独立于 Matplotlib。正如我们已经提到的那样，Bokeh 的重点是交互性，它通过现代浏览器以数据驱动文档（d3.js）的风格呈现。
 
