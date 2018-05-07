@@ -16,7 +16,7 @@
 
 * Pandas 是一个 Python 包，旨在通过「标记（labeled）」和「关系（relational）」数据进行工作，简单直观。Pandas 是 data wrangling 的完美工具。它设计用于**快速简单的数据操作、聚合和可视化**。库中有两个主要的数据结构：
 
-* Series：一维、Data Frames：二维
+Series：一维、Data Frames：二维
 
 ![](http://t12.baidu.com/it/u=2099500088,577537836&fm=170&s=A012709498B85588245A3CD9030010BC&w=345&h=131&img.JPEG)
 
