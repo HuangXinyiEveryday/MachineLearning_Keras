@@ -10,19 +10,15 @@
 
 ### 2）SciPy——地址：[https://www.scipy.org](https://www.scipy.org)
 
-SciPy 是一个工程和科学软件库。除此以外，你还要了解 SciPy Stack 和 SciPy 库之间的区别。SciPy 包含线性代数、优化、集成和统计的模块。SciPy 库的主要功能建立在 NumPy 的基础之上，因此它的数组大量使用了 NumPy。它通过其特定的子模块提供高效的数值例程操作，比如数值积分、优化和许多其他例程。SciPy 的所有子模块中的函数都有详细的文档，这也是一个优势。
+* SciPy 是一个**工程和科学软件库**。除此以外，你还要了解 SciPy Stack 和 SciPy 库之间的区别。SciPy 包含线性代数、优化、集成和统计的模块。SciPy 库的主要功能建立在 NumPy 的基础之上，因此它的数组大量使用了 NumPy。它通过其特定的子模块提供高效的数值例程操作，比如数值积分、优化和许多其他例程。SciPy 的所有子模块中的函数都有详细的文档，这也是一个优势。
 
-3）Pandas
+### 3）Pandas——地址：[http://pandas.pydata.org](http://pandas.pydata.org)
 
-地址：[http://pandas.pydata.org](http://pandas.pydata.org)
+* Pandas 是一个 Python 包，旨在通过「标记（labeled）」和「关系（relational）」数据进行工作，简单直观。Pandas 是 data wrangling 的完美工具。它设计用于**快速简单的数据操作、聚合和可视化**。库中有两个主要的数据结构：
 
-Pandas 是一个 Python 包，旨在通过「标记（labeled）」和「关系（relational）」数据进行工作，简单直观。Pandas 是 data wrangling 的完美工具。它设计用于快速简单的数据操作、聚合和可视化。库中有两个主要的数据结构：
-
-Series：一维
+* Series：一维、Data Frames：二维
 
 ![](http://t12.baidu.com/it/u=2099500088,577537836&fm=170&s=A012709498B85588245A3CD9030010BC&w=345&h=131&img.JPEG)
-
-Data Frames：二维
 
 例如，当你要从这两种类型的结构中接收到一个新的「Dataframe」类型的数据时，你将通过传递一个「Series」来将一行添加到「Dataframe」中来接收这样的 Dataframe：
 
