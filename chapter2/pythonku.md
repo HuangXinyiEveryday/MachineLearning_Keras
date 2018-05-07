@@ -6,11 +6,9 @@
 
 * 当使用 Python 开始处理科学任务时，不可避免地需要求助 Python 的 SciPy Stack，它是专门为 Python 中的科学计算而设计的软件的集合（不要与 SciPy 混淆，它只是这个 stack 的一部分，以及围绕这个 stack 的社区）。这个 stack 相当庞大，其中有十几个库，所以我们想聚焦在核心包上（特别是最重要的）。
 
-* NumPy（代表 Numerical Python）是构建科学计算 stack 的最基础的包。它为 Python 中的 n 维数组和矩阵的操作提供了大量有用的功能。该库还提供了 NumPy 数组类型的数学运算向量化，可以提升性能，从而加快执行速度。
+* NumPy（代表 Numerical Python）是**构建科学计算 stack 的最基础的包**。它为 Python 中的 n 维数组和矩阵的操作提供了大量有用的功能。该库还提供了 NumPy 数组类型的数学运算向量化，可以提升性能，从而加快执行速度。
 
-2）SciPy
-
-地址：[https://www.scipy.org](https://www.scipy.org)
+### 2）SciPy——地址：[https://www.scipy.org](https://www.scipy.org)
 
 SciPy 是一个工程和科学软件库。除此以外，你还要了解 SciPy Stack 和 SciPy 库之间的区别。SciPy 包含线性代数、优化、集成和统计的模块。SciPy 库的主要功能建立在 NumPy 的基础之上，因此它的数组大量使用了 NumPy。它通过其特定的子模块提供高效的数值例程操作，比如数值积分、优化和许多其他例程。SciPy 的所有子模块中的函数都有详细的文档，这也是一个优势。
 
