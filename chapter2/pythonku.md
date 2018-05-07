@@ -2,17 +2,17 @@
 
 ## 一、核心库
 
-### 1）NumPy——地址：[http://www.numpy.org](http://www.numpy.org)
+#### 1）NumPy——地址：[http://www.numpy.org](http://www.numpy.org)
 
 * 当使用 Python 开始处理科学任务时，不可避免地需要求助 Python 的 SciPy Stack，它是专门为 Python 中的科学计算而设计的软件的集合（不要与 SciPy 混淆，它只是这个 stack 的一部分，以及围绕这个 stack 的社区）。这个 stack 相当庞大，其中有十几个库，所以我们想聚焦在核心包上（特别是最重要的）。
 
 * NumPy（代表 Numerical Python）是**构建科学计算 stack 的最基础的包**。它为 Python 中的 n 维数组和矩阵的操作提供了大量有用的功能。该库还提供了 NumPy 数组类型的数学运算向量化，可以提升性能，从而加快执行速度。
 
-### 2）SciPy——地址：[https://www.scipy.org](https://www.scipy.org)
+#### 2）SciPy——地址：[https://www.scipy.org](https://www.scipy.org)
 
 * SciPy 是一个**工程和科学软件库**。除此以外，你还要了解 SciPy Stack 和 SciPy 库之间的区别。SciPy 包含线性代数、优化、集成和统计的模块。SciPy 库的主要功能建立在 NumPy 的基础之上，因此它的数组大量使用了 NumPy。它通过其特定的子模块提供高效的数值例程操作，比如数值积分、优化和许多其他例程。SciPy 的所有子模块中的函数都有详细的文档，这也是一个优势。
 
-### 3）Pandas——地址：[http://pandas.pydata.org](http://pandas.pydata.org)
+#### 3）Pandas——地址：[http://pandas.pydata.org](http://pandas.pydata.org)
 
 * Pandas 是一个 Python 包，旨在通过「标记（labeled）」和「关系（relational）」数据进行工作，简单直观。Pandas 是 data wrangling 的完美工具。它设计用于**快速简单的数据操作、聚合和可视化**。库中有两个主要的数据结构：
 
@@ -24,7 +24,7 @@ Series：一维、Data Frames：二维
 
 # 二、可视化
 
-### 4）Matplotlib地址：[https://matplotlib.org](https://matplotlib.org)
+#### 4）Matplotlib地址：[https://matplotlib.org](https://matplotlib.org)
 
 * Matplotlib 是另一个 SciPy Stack 核心软件包和另一个 Python 库，专为**轻松生成简单而强大的可视化而量身定制**。它是一个顶尖的软件，使得 Python（在 NumPy、SciPy 和 Pandas 的帮助下）成为 MatLab 或 Mathematica 等科学工具的显著竞争对手。然而，这个库比较底层，这意味着你需要编写更多的代码才能达到高级的可视化效果，通常会比使用更高级工具付出更多努力，但总的来说值得一试。花一点力气，你就可以做到任何可视化：
 
@@ -32,19 +32,19 @@ Series：一维、Data Frames：二维
 
 * 还有一些额外的库可以使可视化变得更加容易
 
-### 5）Seaborn——地址：[https://seaborn.pydata.org](https://seaborn.pydata.org)
+#### 5）Seaborn——地址：[https://seaborn.pydata.org](https://seaborn.pydata.org)
 
 * Seaborn 主要**关注统计模型的可视化**；这种可视化包括热度图（heat map），可以总结数据但也描绘总体分布。Seaborn 基于 Matplotlib，并高度依赖于它。
 
 ![](http://t11.baidu.com/it/u=282742669,3050531883&fm=170&s=4050C532451669CA1AD981CE0100C0B2&w=640&h=570&img.JPEG)
 
-### 6）Bokeh——地址：[http://bokeh.pydata.org](http://bokeh.pydata.org) {#bokeh}
+#### 6）Bokeh——地址：[http://bokeh.pydata.org](http://bokeh.pydata.org)
 
 * Bokeh 也是一个很好的可视化库，其**目的是交互式可视化**。与之前的库相反，这个库独立于 Matplotlib。正如我们已经提到的那样，Bokeh 的重点是交互性，它通过现代浏览器以数据驱动文档（d3.js）的风格呈现。
 
 ![](http://t12.baidu.com/it/u=1047918197,246651124&fm=170&s=9741FE10000A53457E96F34C030070E5&w=433&h=431&img.JPEG)
 
-### 7）Plotly——地址：[https://plot.ly](https://plot.ly)
+#### 7）Plotly——地址：[https://plot.ly](https://plot.ly)
 
 * 它是一个**基于 Web 的工具箱，用于构建可视化，将 API 呈现给某些编程语言（其中包括 Python）**。在 plot.ly 网站上有一些强大的、开箱即用的图形。为了使用 Plotly，你需要设置你的 API 密钥（_类似百度地图API_）。图形处理会放在服务器端，并在互联网上发布，但也有一种方法可以避免这么做。
 
@@ -52,7 +52,7 @@ Series：一维、Data Frames：二维
 
 ## 三、机器学习
 
-### 8）SciKit-Learn——地址：[http://scikit-learn.org](http://scikit-learn.org)
+#### 8）SciKit-Learn——地址：[http://scikit-learn.org](http://scikit-learn.org)
 
 * Scikits 是 SciPy Stack 的附加软件包，专为**特定功能（如图像处理和辅助机器学习）而设计**。在后者方面，其中最突出的一个是 scikit-learn。该软件包构建于 SciPy 之上，并大量使用其数学操作。
 
@@ -62,7 +62,7 @@ Series：一维、Data Frames：二维
 
 在深度学习方面，Python 中最突出和最方便的库之一是 Keras，它可以在 TensorFlow 或者 Theano 之上运行。让我们来看一下它们的一些细节。
 
-### 9）Theano——地址：[https://github.com/Theano](https://github.com/Theano)（目前已经不再更新，被TF取代）
+#### 9）Theano——地址：[https://github.com/Theano](https://github.com/Theano)（目前已经不再更新，被TF取代）
 
 * 首先，让我们谈谈 Theano。Theano 是一个 Python 包，它定义了与 NumPy 类似的多维数组，以及数学运算和表达式。该库是经过编译的，使其在所有架构上能够高效运行。这个库最初由蒙特利尔大学机器学习组开发，主要是为了满足机器学习的需求。
 
@@ -70,13 +70,13 @@ Series：一维、Data Frames：二维
 
 * 效率和稳定性调整允许更精确的结果，即使是非常小的值也可以，例如，即使 x 很小，log\(1+x\) 也能得到很好的结果。
 
-### 10）TensorFlow——地址：[https://www.tensorflow.org](https://www.tensorflow.org)
+#### 10）TensorFlow——地址：[https://www.tensorflow.org](https://www.tensorflow.org)
 
 * TensorFlow 来自 Google 的开发人员，它是**用于数据流图计算的开源库**，专门为机器学习设计。它是为满足 Google 对训练神经网络的高要求而设计的，是基于神经网络的机器学习系统 DistBelief 的继任者。然而，TensorFlow 并不是谷歌的科学专用的——它也足以支持许多真实世界的应用。
 
 * TensorFlow 的**关键特征是其多层节点系统**，可以在大型数据集上快速训练人工神经网络。这为 Google 的语音识别和图像识别提供了支持。
 
-### 11）Keras——地址：[https://keras.io](https://keras.io)
+#### 11）Keras——地址：[https://keras.io](https://keras.io)
 
 最后，我们来看看 Keras。它是一个使用高层接口构建神经网络的开源库，它是用 Python 编写的。它简单易懂，具有高级可扩展性。它使用 Theano 或 TensorFlow 作为后端，但 Microsoft 现在已将 CNTK（Microsoft 的认知工具包）集成为新的后端。
 
