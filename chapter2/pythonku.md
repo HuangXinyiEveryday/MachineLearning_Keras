@@ -60,11 +60,9 @@ Series：一维、Data Frames：二维
 
 ## 四、深度学习：Keras / TensorFlow / Theano
 
-    在深度学习方面，Python 中最突出和最方便的库之一是 Keras，它可以在 TensorFlow 或者 Theano 之上运行。让我们来看一下它们的一些细节。
+在深度学习方面，Python 中最突出和最方便的库之一是 Keras，它可以在 TensorFlow 或者 Theano 之上运行。让我们来看一下它们的一些细节。
 
-9）Theano
-
-地址：[https://github.com/Theano](https://github.com/Theano)
+### 9）Theano——地址：[https://github.com/Theano](https://github.com/Theano)
 
 首先，让我们谈谈 Theano。Theano 是一个 Python 包，它定义了与 NumPy 类似的多维数组，以及数学运算和表达式。该库是经过编译的，使其在所有架构上能够高效运行。这个库最初由蒙特利尔大学机器学习组开发，主要是为了满足机器学习的需求。
 
