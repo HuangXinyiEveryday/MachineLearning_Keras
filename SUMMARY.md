@@ -5,7 +5,7 @@
 * [Chapter1 简介](chapter2.md)
   * [软件安装](chapter2/ruan-jian-an-zhuang.md)
   * [软件配置](chapter2/ruan-jian-pei-zhi.md)
-  * Python库
+  * [Python库](chapter2/pythonku.md)
 * [Chapter2 Python相关](chapter2qian-qi-zhun-bei.md)
 * Chapter3 Keras学习
 * Chapter4 TensorFlow学习
