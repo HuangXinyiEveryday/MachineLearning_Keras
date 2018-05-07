@@ -70,17 +70,13 @@ Series：一维、Data Frames：二维
 
 * 效率和稳定性调整允许更精确的结果，即使是非常小的值也可以，例如，即使 x 很小，log\(1+x\) 也能得到很好的结果。
 
-10）TensorFlow
+### 10）TensorFlow——地址：[https://www.tensorflow.org](https://www.tensorflow.org)
 
-地址：[https://www.tensorflow.org](https://www.tensorflow.org)
+* TensorFlow 来自 Google 的开发人员，它是**用于数据流图计算的开源库**，专门为机器学习设计。它是为满足 Google 对训练神经网络的高要求而设计的，是基于神经网络的机器学习系统 DistBelief 的继任者。然而，TensorFlow 并不是谷歌的科学专用的——它也足以支持许多真实世界的应用。
 
-TensorFlow 来自 Google 的开发人员，它是用于数据流图计算的开源库，专门为机器学习设计。它是为满足 Google 对训练神经网络的高要求而设计的，是基于神经网络的机器学习系统 DistBelief 的继任者。然而，TensorFlow 并不是谷歌的科学专用的——它也足以支持许多真实世界的应用。
+* TensorFlow 的**关键特征是其多层节点系统**，可以在大型数据集上快速训练人工神经网络。这为 Google 的语音识别和图像识别提供了支持。
 
-TensorFlow 的关键特征是其多层节点系统，可以在大型数据集上快速训练人工神经网络。这为 Google 的语音识别和图像识别提供了支持。
-
-11）Keras
-
-地址：[https://keras.io](https://keras.io)
+### 11）Keras——地址：[https://keras.io](https://keras.io)
 
 最后，我们来看看 Keras。它是一个使用高层接口构建神经网络的开源库，它是用 Python 编写的。它简单易懂，具有高级可扩展性。它使用 Theano 或 TensorFlow 作为后端，但 Microsoft 现在已将 CNTK（Microsoft 的认知工具包）集成为新的后端。
 
