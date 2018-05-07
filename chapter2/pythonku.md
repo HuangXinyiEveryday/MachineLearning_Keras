@@ -52,17 +52,15 @@ Series：一维、Data Frames：二维
 
 ## 三、机器学习
 
-8）SciKit-Learn
+### 8）SciKit-Learn——地址：[http://scikit-learn.org](http://scikit-learn.org)
 
-地址：[http://scikit-learn.org](http://scikit-learn.org)
+* Scikits 是 SciPy Stack 的附加软件包，专为**特定功能（如图像处理和辅助机器学习）而设计**。在后者方面，其中最突出的一个是 scikit-learn。该软件包构建于 SciPy 之上，并大量使用其数学操作。
 
-Scikits 是 SciPy Stack 的附加软件包，专为特定功能（如图像处理和辅助机器学习）而设计。在后者方面，其中最突出的一个是 scikit-learn。该软件包构建于 SciPy 之上，并大量使用其数学操作。
+* scikit-learn 有一个简洁和一致的接口，可**利用常见的机器学习算法**，让我们可以简单地在生产中应用机器学习。该库结合了质量很好的代码和良好的文档，易于使用且有着非常高的性能，是使用 Python 进行机器学习的实际上的行业标准。
 
-scikit-learn 有一个简洁和一致的接口，可利用常见的机器学习算法，让我们可以简单地在生产中应用机器学习。该库结合了质量很好的代码和良好的文档，易于使用且有着非常高的性能，是使用 Python 进行机器学习的实际上的行业标准。
+## 四、深度学习：Keras / TensorFlow / Theano
 
-深度学习：Keras / TensorFlow / Theano
-
-在深度学习方面，Python 中最突出和最方便的库之一是 Keras，它可以在 TensorFlow 或者 Theano 之上运行。让我们来看一下它们的一些细节。
+        在深度学习方面，Python 中最突出和最方便的库之一是 Keras，它可以在 TensorFlow 或者 Theano 之上运行。让我们来看一下它们的一些细节。
 
 9）Theano
 
