@@ -7,5 +7,6 @@
   * [实例步骤](chapter2/ruan-jian-pei-zhi.md)
     * [Step1数据集分析](chapter2/ruan-jian-pei-zhi/step1shu-ju-ji-fen-xi.md)
     * [Step2Keras实现](chapter2/ruan-jian-pei-zhi/step2kerasshi-xian.md)
+    * [Step3交叉验证及模型优化](chapter2/ruan-jian-pei-zhi/step3jiao-cha-yan-zheng-ji-mo-xing-you-hua.md)
   * [实例代码](chapter2/pythonku.md)
 
