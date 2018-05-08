@@ -6,5 +6,9 @@
 
 * 用Scikit-learn的**StratifiedKFold**类进行10折交叉验证，测试模型在未知数据的性能，并使用cross\_val\_score\(\)函数检测模型，打印结果。
 
+```
+
+```
+
 
 
