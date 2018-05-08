@@ -48,7 +48,7 @@ model.compile(loss='binary_crossentropy',optimizer='adam', metrics=['accuracy'])
 
 # 四、训练模型
 
-* 调用Keras模型的fit\(\)方法即可开始训练。 网络按轮训练，通过nb\_epoch参数控制。每次送入的数据（一次处理的数据量）可以用batch\_size参数控制。
+* 调用Keras模型的提供的**fit\(\)方法**即可开始训练。 网络按轮训练，通过**epochs**参数控制。每次送入的数据（一次处理的数据量）可以用batch\_size参数控制。
 
 ```py
 #训练模型
