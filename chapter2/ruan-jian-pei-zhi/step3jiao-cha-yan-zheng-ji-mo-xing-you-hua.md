@@ -30,7 +30,22 @@ print(results.mean())
 * 训练次数：对模型训练的次数
 * 批处理大小：每一轮中每次批处理多少数据
 
+# 3.Scikit-Learn优化模型
 
+* 所有的参数组成一个字典，传入scikit-learn的**GridSearchCV类**：GridSearchCV会对每组参数（2×3×3×3）进行训练，进行3折交叉检验。
+
+```py
+#测试不同参数，优化模型
+model=KerasClassifier(build_fn=create_model, nb_epoch=150, batch_size=10)
+optimizers = ['rmsprop', 'adam']#优化算法[2]
+init = ['glorot_uniform', 'normal', 'uniform']#权重初始化算法[3]
+epochs = np.array([50, 100, 150])#训练轮数[3]
+batches = np.array([5, 10, 20])#一次批处理几条数据[3]
+param_grid = dict(optimizer=optimizers, nb_epoch=epochs, batch_size=batches, init=init) 
+#创建GridSearchCV，用来进行不同参数数据分析
+grid = GridSearchCV(estimator=model, param_grid=param_grid)
+grid_result = grid.fit(X, Y)
+```
 
 
 
