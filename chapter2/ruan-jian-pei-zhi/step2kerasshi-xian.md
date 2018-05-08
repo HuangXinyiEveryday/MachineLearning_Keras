@@ -61,6 +61,7 @@ model.fit(X,Y,epochs=150,batch_size=10)
 * 测试数据拿出来检验一下模型的效果。但需要注意不能将所有测试数据训练后在进行直接测试。应该将数据分成训练和测试集
 
 * 采用Keras自动验证，Keras可以将数据自动分出一部分，每次训练后进行验证。在训练时用validation\_split参数可以指定验证数据的比例，一般是总数据的20%或者33%。
+
 * 调用Keras模型的**evaluate\(\)方法**，传入训练时的数据。输出是平均值，包括平均误差和其他的数据，例如准确度等，可以自己选择评估结果参数打印输出
 
 ```py
@@ -68,7 +69,7 @@ model.fit(X,Y,epochs=150,batch_size=10)
 model.fit(X,Y,validation_split=0.33,epochs=150,batch_size=10)
 #评估模型
 scores=model.evaluate(X,Y)
-print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
+print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))#得到准确度
 ```
 
 
