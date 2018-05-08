@@ -29,5 +29,5 @@ model.fit(X,Y,epochs=100,batch_size=20,validation_data=(X,Y),callbacks=[history]
 history.loss_plot('epoch')
 ```
 
-
+![](/assets/import3.png)
 
