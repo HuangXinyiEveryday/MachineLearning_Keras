@@ -21,17 +21,19 @@ Y=dataset.iloc[:,8]
 
 * 本实例使用三层全连接的结构，Keras使用Dense定义全连接层第一个参数定义层的神经元数量,第二个参数 init 定义权重的初始化方法, activation 参数定义激活函数。
 
-* ```
-
-  ```
+```
+#创建模型
+model=Sequential()#实例化Sequential 模型对象
+#input_dim设置输入层数量，设置为8代表8个输入变量;第一个参数为本层神经元的数量
+#init=uniform表示权重初始化成一个服从均匀分布的小随机数。Keras 标准均匀分布权重初始值[0,0.5];
+#init=normal则表示从高斯分布（正态分布）中产生一个小的随机数进行权重初始化。
+#activation='relu'使用线性整流函数relu，sigmoid是S型函数作为激活函数
+model.add(Dense(12,input_dim=8,kernel_initializer='uniform',activation='relu'))
+model.add(Dense(8,kernel_initializer='uniform',activation='relu'))
+model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
+```
 
 ![](/assets/import1.png)
-
-
-
-
-
-
 
 编译模型
 
