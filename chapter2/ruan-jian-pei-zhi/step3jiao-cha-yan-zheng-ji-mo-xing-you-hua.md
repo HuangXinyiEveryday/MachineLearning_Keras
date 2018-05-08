@@ -57,7 +57,7 @@ grid_result = grid.fit(X, Y)
 
 ###### 1.模型建立阶段
 
-* init—权重初始化算法
+* init—权重初始化算法（可调用TensorFlow接口，也可以自己定义优化算法）
 * activation—激活函数
 * Dense—神经元数量、甚至感知层数
 
