@@ -46,9 +46,11 @@ model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
 model.compile(loss='binary_crossentropy',optimizer='adam', metrics=['accuracy'])
 ```
 
-训练模型
+# 四、训练模型
 
-# 评估模型
+
+
+评估模型
 
 
 
