@@ -21,7 +21,7 @@ Y=dataset.iloc[:,8]
 
 * 本实例使用三层全连接的结构，Keras使用Dense定义全连接层第一个参数定义层的神经元数量,第二个参数 init 定义权重的初始化方法, activation 参数定义激活函数。
 
-```
+```py
 #创建模型
 model=Sequential()#实例化Sequential 模型对象
 #input_dim设置输入层数量，设置为8代表8个输入变量;第一个参数为本层神经元的数量
@@ -35,7 +35,7 @@ model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
 
 ![](/assets/import1.png)
 
-编译模型
+三、编译模型
 
 # 训练模型
 
