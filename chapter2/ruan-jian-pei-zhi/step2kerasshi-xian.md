@@ -38,15 +38,13 @@ model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
 # 三、编译模型
 
 * 定义好的模型可以编译：Keras会调用Theano或者TensorFlow编译模型。后端会自动选择表示网络的最佳方法，配合你的硬件，在这里使用TensorFlow backend。
-* 注：损失函数和优化算法是后台TensorFlow提供的，因此想要模型足够精确，需要深入了解使用TensorFlow或者自己开发API接口；训练神经网络的意义是找到最好的一组权重，解决问题
+* 注：损失函数和优化算法是后台TensorFlow提供的，因此想要模型足够精确，需要深入了解使用TensorFlow或者自己开发API后台接口；**训练神经网络的意义是找到最好的一组权重**，解决问题
 
 ```py
 #编译模型
 #定义损失函数和优化算法以及需要收集的数据，‘binary_crossentropy’错误的对数作为损失函数，adam作为优化算法
 model.compile(loss='binary_crossentropy',optimizer='adam', metrics=['accuracy'])
 ```
-
-
 
 训练模型
 
