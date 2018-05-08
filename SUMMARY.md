@@ -6,5 +6,6 @@
   * [实例说明](chapter2/ruan-jian-an-zhuang.md)
   * [实例步骤](chapter2/ruan-jian-pei-zhi.md)
     * [Step1数据集分析](chapter2/ruan-jian-pei-zhi/step1shu-ju-ji-fen-xi.md)
+    * [Step2Keras实现](chapter2/ruan-jian-pei-zhi/step2kerasshi-xian.md)
   * [实例代码](chapter2/pythonku.md)
 
