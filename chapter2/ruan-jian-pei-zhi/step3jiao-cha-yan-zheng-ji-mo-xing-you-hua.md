@@ -55,20 +55,14 @@ grid_result = grid.fit(X, Y)
 
 如果不使用SL提供的网格搜索进行优化，针对三层全感知网络我们可以自己优化的参数如下
 
-1. optimizers-优化算法（可调用TensorFlow接口，也可以自己定义优化算法）
-2. init—权重初始化算法
-3. epochs—fit训练轮数
-4. batches—每轮每次批处理数据量
-5. 
+###### 1.模型建立阶段
 
+* optimizers-优化算法（可调用TensorFlow接口，也可以自己定义优化算法）
+* init—权重初始化算法
+* activation—激活函数
 
-
-
-
-
-
-
-
-
+1. epochs—fit训练轮数
+2. batches—每轮每次批处理数据量
+3. 
 
 
