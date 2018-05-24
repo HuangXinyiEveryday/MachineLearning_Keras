@@ -7,8 +7,8 @@
   * [软件配置](chapter2/ruan-jian-pei-zhi.md)
   * [Python库](chapter2/pythonku.md)
 * [Chapter2 Python相关](chapter2qian-qi-zhun-bei.md)
-* Chapter3 Keras学习
-* Chapter4 TensorFlow学习
-* Chapter5 机器学习绘图
-* Chapter6 问题汇总
+* [Chapter3 Keras学习](chapter3-kerasxue-xi.md)
+* [Chapter4 TensorFlow学习](chapter4-tensorflowxue-xi.md)
+* [Chapter5 机器学习绘图](chapter5-ji-qi-xue-xi-hui-tu.md)
+* [Chapter6 问题汇总](chapter6-wen-ti-hui-zong.md)
 
